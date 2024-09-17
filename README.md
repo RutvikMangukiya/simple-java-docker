@@ -1,6 +1,6 @@
-**simple-java-docker**
+## simple-java-docker
 
-A simple java app that runs on docker
+A simple java app that runs on docker.
 
 ## Tasks with Answers
 
@@ -11,12 +11,12 @@ A simple java app that runs on docker
 
       ![image](https://github.com/RutvikMangukiya/simple-java-docker/blob/main/image/1-git-clone.png)
 
+      ![image](https://github.com/RutvikMangukiya/simple-java-docker/blob/main/image/2-cd-src.png)
+
 **2. Create a Dockerfile**
    - Create a file named `Dockerfile` in the same directory and add the following content:
 
       **Answer**
-
-      ![image](https://github.com/RutvikMangukiya/simple-java-docker/blob/main/image/2-cd-src.png)
 
       ![image](https://github.com/RutvikMangukiya/simple-java-docker/blob/main/image/3-dockerfile.png)
 
@@ -37,7 +37,7 @@ A simple java app that runs on docker
       ![image](https://github.com/RutvikMangukiya/simple-java-docker/blob/main/image/6-docker-run.png)
 
 **3. Update the application code at ``src/main.java`` and rebuild the image**
-   - Rebuild the image with tag name `java:v1`
+   - Rebuild the image with tag name `java:v1` :
 
      **Answer**
 
@@ -47,31 +47,31 @@ A simple java app that runs on docker
 
      ![image](https://github.com/RutvikMangukiya/simple-java-docker/blob/main/image/9-v1-list.png)
 
-   - Run the java image with new tag name `java:v1`
+   - Run the java image with new tag name `java:v1` :
 
      **Answer**
 
      ![image](https://github.com/RutvikMangukiya/simple-java-docker/blob/main/image/10-v1-run.png)
    
-   - Image with old tag name java:latest
+   - Image with old tag name `java:latest` :
 
      ![image](https://github.com/RutvikMangukiya/simple-java-docker/blob/main/image/11-docker-run-latest-again.png)
 
 **4. Push the image to a public or private repository (e.g. Docker Hub)**
    - To push the image to Docker Hub, you need to tag it with your Docker Hub username and repository name, then push it.
-   - **1. Tag the Image**
+   - **1. Tag the Image:**
 
       **Answer**
 
       ![image](https://github.com/RutvikMangukiya/simple-java-docker/blob/main/image/12-docker-tag.png)
 
-   - **2. Push the Image**
+   - **2. Push the Image:**
 
       **Answer**
 
       ![image](https://github.com/RutvikMangukiya/simple-java-docker/blob/main/image/13-docker-push.png)
 
-   - **3. Check your profile at Docker Hub Webpage**
+   - **3. Check your profile at Docker Hub Webpage:**
 
       **Answer**
 
